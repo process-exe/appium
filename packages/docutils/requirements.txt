@@ -2,3 +2,6 @@ mkdocs==1.4.3
 mkdocs-material==9.1.15
 mkdocs-material-extensions==1.1.1
 mike==1.1.2
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
